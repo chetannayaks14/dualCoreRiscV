@@ -1,0 +1,13 @@
+The multi-core RV64I processor system is designed with performance, scalability, and
+implementation feasibility in mind. It consists of four symmetric RV64I cores, each
+equipped with private instruction and data caches. These cores follow a classic 5-stage
+in-order pipeline and support the base integer instruction set of the RISC-V architecture.
+The memory architecture includes a unified 256KB shared memory that is accessed via a
+crossbar interconnect, enabling low-latency communication between cores. The caches are
+configured as 4-way set associative with a 32-byte block size and implement a write-back
+policy.
+This system is targeted for RTL-level simulation and FPGA prototyping using tools
+such as Vivado, Verilator, and ModelSim. It supports a 64-bit data path and operates
+at a simulated frequency of 100 MHz. Additional architectural features include memorymapped I/O, basic atomic operations for synchronization, and future support for cache
+coherence protocols. Overall, the design is aimed at academic validation and real-time
+embedded applications where performance and modularity are critical.
