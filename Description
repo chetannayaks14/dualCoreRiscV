@@ -1,0 +1,5 @@
+Dual-Core RISC-V RTL Integration & Verification Verilog, SystemVerilog, C, GCC, objdump
+• Integrated dual-core RISC-V RTL with shared-memory arbitration and peripherals on FPGA; verified inter-core
+read/write ordering and debugged behaviour through waveform analysis.
+• Compiled C test programs with GCC and used objdump/readelf to inspect instruction encodings and confirm
+expected RTL paths were exercised.
