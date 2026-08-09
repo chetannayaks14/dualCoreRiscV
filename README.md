@@ -93,17 +93,19 @@ Core 1: x1=3, x2=10, x3=13, x4=23
 
 ### Test Instruction Sequences
 
-**Core0:**
-![Core0 instruction sequence](docs/images/core0-instruction-sequence.png)
+   **Core0:**
+   ![Core0 instruction sequence](docs/images/core0-instruction-sequence.png)
 
-**Core1:**
-![Core1 instruction sequence](docs/images/core1-instruction-sequence.png)
+   **Core1:**
+   ![Core1 instruction sequence](docs/images/core1-instruction-sequence.png)
 
-### Architecture Under Test
-![Pipeline architecture flow](docs/images/pipeline-architecture-flow.png)
+   ### Architecture Under Test
+   ![Pipeline architecture flow](docs/images/pipeline-architecture-flow.png)
 
-### Simulation Waveform
-![Simulation waveform results](docs/images/simulation-waveform-results.png)
+   ### Simulation Waveform
+   ![Simulation waveform results](docs/images/simulation-waveform-results.png)
+
+
 
 
 - Waveform debug plan — arbiter grant/request, memory strobes, core PC signals
